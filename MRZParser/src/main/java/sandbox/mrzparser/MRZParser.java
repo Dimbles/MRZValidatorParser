@@ -18,19 +18,6 @@ public class MRZParser {
                 .build();
         helloCmd.parse(args);
         
-        //testing out the parsing with a print statement
-//        System.out.println("Dob: " + jArgs.getDob());
-//        
-//        System.out.println("Exp: " + jArgs.getExp());
-//        
-//        System.out.println("Passportno: " + jArgs.getPassportno());
-//        
-//        System.out.println("nationality: " + jArgs.getNationality());
-//        
-//        System.out.println("state: " + jArgs.getState());
-//        
-//        System.out.println("mrzl2: " + jArgs.getMrzl2());
-        
         //running old program with the parser 
         
         Passport passport = new Passport( Integer.valueOf(jArgs.getDob()), Integer.valueOf(jArgs.getExp()), Integer.valueOf(jArgs.getPassportno()),

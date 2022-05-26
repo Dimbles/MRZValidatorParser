@@ -1,0 +1,6 @@
+sandbox\logic\MrzValidation.class
+sandbox\domain\Passport.class
+Args.class
+sandbox\domain\MRZ.class
+MRZParser.class
+sandbox\logic\CheckDigit.class
